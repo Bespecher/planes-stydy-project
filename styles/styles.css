@@ -1,5 +1,33 @@
-.nav-text {
+body {
+    font-family: 'Roboto',
+        sans-serif;
+    background-color: #f5f7fa;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.nav-items {
+    list-style-type: none;
     font-family: 'Roboto', sans-serif;
+    color: #3482db;
+    font-weight: 600;
+    text-transform: uppercase;
     list-style-type: none;
 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.presentation {
+    background-color: #fff;
+    background-image: url("./images/index.png");
+    display: block;
+    margin: auto;
 }
