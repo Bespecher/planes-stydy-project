@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href="./images/icon.ico" type="image/icon">
     <title>Фабрика Паперових Літачків / Paper Planes Factory</title>
 </head>
@@ -12,27 +16,27 @@
 <body>
     <!--Навігація сайту-->
     <header>
-        <nav>
+        <nav class="nav">
             <ul class="nav-items">
-                <li>
+                <li class="nav-it">
                     <a href="https://paperplanesfactory.store">ГОЛОВНА</a>
                 </li>
-                <li>
+                <li class="nav-it">
                     <a href="https://paperplanesfactory.store/aboutus">ПРО НАС</a>
                 </li>
-                <li>
-                    <a href=https://paperplanesfactory.store/blog">БЛОГ</a>
+                <li class="nav-it">
+                    <a href="https://paperplanesfactory.store/blog">БЛОГ</a>
                 </li>
-                <li>
+                <li class="nav-it">
                     <a href="#how-to-buy">ЯК ЗАМОВИТИ</a>
                 </li>
-                <li>
+                <li class="nav-it">
                     <a href="#shop">МАГАЗИН</a>
                 </li>
-                <li>
+                <li class="nav-it">
                     <a href="#sale">РОЗПРОДАЖ</a>
                 </li>
-                <li>
+                <li class="nav-it">
                     <a href="#contacts">КОНТАКТИ</a>
                 </li>
             </ul>
@@ -41,17 +45,19 @@
     <main>
         <!--Презентація-->
         <section class="presentation">
-            <h1>Фабрика Паперових Літачків <br>
-                ..................................................... <br>
+            <h1 class="main-header-style">
+                <strong>Фабрика Паперових Літачків <br>
+                    ..................................................... <br>
 
-                <span lang="eng">Paper Planes Factory <br></span>
+                    Paper Planes Factory <br>
 
-                ..............................
+                    ..............................</strong>
             </h1>
+
         </section>
         <!--Місія магазину-->
         <section>
-            <h2>Наша місія</h2>
+            <h2 class="hidden">Наша місія</h2>
             <p>Фабрика Паперових Літачків - український стартап,
                 місія якого - оживити романтику авіації.
             </p>
@@ -65,7 +71,7 @@
         </section>
         <!--Секція товарів-->
         <section>
-            <h2>Наші товари</h2>
+            <h2 class="hidden">Наші товари</h2>
             <!--Розпродаж-->
             <ul id="sale">
                 <li><button type="button">Календар "Акварельна Авіація 2022"</button></li>
@@ -128,7 +134,7 @@
         <ul>
             <li>
                 <a href="https://www.facebook.com/paperolit/" target="_blank" rel="noopener"> <svg
-                        class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        class="t-sociallinks__svg" version="1.1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
                         viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
                         <desc>Facebook</desc>
@@ -139,7 +145,7 @@
             </li>
             <li>
                 <a href="https://www.youtube.com/channel/UCxofTF2n7UIZwbDYONnhIqQ" target="_blank" rel="noopener"> <svg
-                        class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        class="t-sociallinks__svg" version="1.1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
                         viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
                         <desc>Youtube</desc>
@@ -151,7 +157,7 @@
             </li>
             <li>
                 <a href="https://www.instagram.com/paper_planes_factory/" target="_blank" rel="noopener"> <svg
-                        class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        class="t-sociallinks__svg" version="1.1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 30 30"
                         xml:space="preserve">
                         <desc>Instagram</desc>
