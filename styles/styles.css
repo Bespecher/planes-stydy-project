@@ -48,9 +48,11 @@ a {
 .presentation {
     background-color: #fff;
     background-image: url(/images/index.png);
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: flex-end;
     margin: auto;
-    height: 100vh;
+    height: 500px; 100vh;
     margin: 0;
     padding: 0;
     border: 0;
@@ -70,6 +72,7 @@ a {
     position: relative;
     background-attachment: fixed;
     overflow: hidden;
+    display: feColorMatrix
 }
 
 .main-header-style {
