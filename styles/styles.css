@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+.hidden {
+    display: none
+}
+
 
 /* Стилі панелі навігації */
 .nav {
@@ -53,49 +57,24 @@ a {
 }
 
 /* Стилі презентації */
-
-
 .presentation {
-    background-color: #fff;
+    height: 100vh;
     background-image: url(/images/index.png);
-    display: flex;
-    flex-direction: column-reverse;
-    align-content: flex-end;
-    margin: auto;
-    height: 500px; 100vh;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    box-sizing: content-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    width: 100%;
-    background-size: cover;
-    background-color: #000;
-    background-repeat: no-repeat;
     background-position: center center;
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    background-attachment: fixed;
-    overflow: hidden;
-
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    
 }
 
 
-.main-header-style {
-
-
-    margin: 0;
+.main-header-style { margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     line-height: 1.55;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     padding-top: 28px;
     padding-bottom: 28px;
@@ -104,12 +83,14 @@ a {
     margin-left: 50px;
     text-align: left;
     margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    
 
 }
 
-.hidden {
-    display: none
+/* Стилі місії проекту */
+.mission {
+    font-family: 'Roboto', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    
 }
