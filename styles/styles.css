@@ -8,6 +8,7 @@ a {
     text-decoration: none;
 }
 
+
 /* Стилі панелі навігації */
 .nav {
     height: 25vh;
@@ -15,31 +16,40 @@ a {
     font-size: 16px;
     white-space: nowrap;
     margin: 0;
-    padding: 0;
+   
     border: 0;
     color: #3482db;
     font-weight: 600;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.nav a{
+    color: #3482db;
 }
 
 .nav-items {
     list-style-type: none;
     font-family: 'Roboto', sans-serif;
-    color: #3482db;
     font-weight: 600;
     text-transform: uppercase;
     list-style-type: none;
-    padding: 0 15px 0 0;
-
+    height: 19px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
 
 }
 
 .nav-it {
-    padding: 0 15px 0 0;
+    padding-right: 19px;
+    padding-left: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    list-style-type: none;
 }
 
 /* Стилі презентації */
@@ -72,8 +82,9 @@ a {
     position: relative;
     background-attachment: fixed;
     overflow: hidden;
-    display: feColorMatrix
+
 }
+
 
 .main-header-style {
 
@@ -82,7 +93,7 @@ a {
     padding: 0;
     border: 0;
     font-family: 'Roboto', Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 1.55;
     font-size: 16px;
     color: #fff;
