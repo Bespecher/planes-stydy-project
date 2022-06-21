@@ -28,7 +28,6 @@ a {
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 16px;
     white-space: nowrap;
-    color: #3482db;
     font-weight: 600;
     text-transform: uppercase;
     display: flex;
@@ -95,30 +94,99 @@ a {
 /* Стилі місії проекту */
 .mission {
     font-family: 'Roboto', Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
+    font-weight: 300;
+    color: #000;
+    font-size: 20px;
+    line-height: 1.55;
+    box-sizing: content-box;
+    text-align: center;
     
 }
 
+.mission-intro {
+    box-sizing: content-box;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 50%;
+}
+
 /* Стилі магазину */
+.shop {}
 .shop-items {
     list-style-type: none;
 }
 
+/* Стилі заклику до покупки */
+
+.how-to-buy {
+    box-sizing: content-box;
+    padding-top: 45px;
+    padding-bottom: 105px;
+    background-color: #d4f5ff;
+}
+
+.how-to-buy-header {
+    font-family Roboto,Arial, sans-serif; 
+    font-size 24px; 
+    font-weight 700;
+    height auto;
+    line-height: 32px;
+}
+
+.how-to-buy-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.how-to-buy-text >p {
+    margin-top: 0,5em;
+    margin-bottom: 0em;
+}
+
 
 /* Стилі футера */
+.footer {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.allways-for-U {
+font-size 16px;
+font-weight 300;
+line-height: 1.55;
+margin-bottom: 35px;
+}
+
+.contacts {
+font-size: 28px;
+font-weight: 300;
+line-height: 1.5;
+margin-bottom: 35px;
+}
+
+.contacts a{
+color: #000;
+}
+
+
 .contacts-items {
     list-style-type: none;
 }
 
 .soc-media {
+    list-style-type: none;
+    height: 72px;
+    display: flex;
+    justify-content: center;
 }
 
 .soc-media-items {
-    box-sizing: content-box;
-    list-style-type: none;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    
+    margin-left: 3px;
+   margin-right: 3px;
 }
