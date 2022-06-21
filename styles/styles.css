@@ -1,6 +1,5 @@
 body {
-    font-family: 'Roboto',
-        sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f5f7fa;
     margin: auto;
 }
@@ -29,9 +28,6 @@ a {
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 16px;
     white-space: nowrap;
-    margin: 0;
-   
-    border: 0;
     color: #3482db;
     font-weight: 600;
     text-transform: uppercase;
@@ -50,7 +46,6 @@ a {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    list-style-type: none;
     height: 19px;
     display: flex;
     justify-content: center;
@@ -102,5 +97,28 @@ a {
     font-family: 'Roboto', Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    
+}
+
+/* Стилі магазину */
+.shop-items {
+    list-style-type: none;
+}
+
+
+/* Стилі футера */
+.contacts-items {
+    list-style-type: none;
+}
+
+.soc-media {
+}
+
+.soc-media-items {
+    box-sizing: content-box;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
     
 }
