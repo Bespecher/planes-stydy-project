@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f5f7fa;
+    background-color: #fefbf2;
     margin: auto;
 }
 
@@ -100,7 +100,8 @@ a {
     line-height: 1.55;
     box-sizing: content-box;
     text-align: center;
-    
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .mission-intro {
@@ -109,7 +110,8 @@ a {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    width: 50%;
+    width: 60%;
+    border-image-slice 100%
 }
 
 /* Стилі магазину */
@@ -121,18 +123,15 @@ a {
 /* Стилі заклику до покупки */
 
 .how-to-buy {
-    box-sizing: content-box;
     padding-top: 45px;
     padding-bottom: 105px;
     background-color: #d4f5ff;
+    
 }
 
 .how-to-buy-header {
-    font-family Roboto,Arial, sans-serif; 
-    font-size 24px; 
-    font-weight 700;
-    height auto;
-    line-height: 32px;
+    
+    
 }
 
 .how-to-buy-text {
@@ -140,6 +139,10 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size 24px;
+    font-weight 700;
+    line-height: 32px;
 }
 
 .how-to-buy-text >p {
@@ -147,6 +150,233 @@ a {
     margin-bottom: 0em;
 }
 
+
+/* Стилі Про нас */
+
+.about-us-img {
+    height: 100vh;
+    background-image: url(/images/noroot.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.logo-nav {
+    background-image: url(/images/Logonav.png);
+    height: 160px;
+    width: 160px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #fff;
+    position: relative;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    top: -90px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #fff;
+    
+}
+
+/* Стилі текстової презентації Про нас */
+
+.about-us-presentation {
+    box-sizing: content-box;
+    display: block;
+    position:relative;
+    max-width: max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 61%;
+    border-image-slice 100%;
+    text-align: center;
+}
+
+.about-us-title {
+    font-family: 'Roboto', sans-serif;
+    color:rgb(76, 139, 222);
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.about-us-subtitle {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(76, 139, 222);
+    font-size: 26px;
+    line-height: 1.6;
+}
+
+.about-us-text {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+    color: #000;
+    font-size: 20px;
+    line-height: 1.55;
+    box-sizing: content-box;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.further-presentation-img {
+    box-sizing: content-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+    transform: initial;
+    background-image: url(/images/aboutus.jpg);
+    box-sizing: content-box;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    vertical-align: middle;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.further-presentation-text {
+    box-sizing: content-box;
+    display: block;
+    position: relative;
+    max-width: max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 55%;
+    border-image-slice 100%;
+    text-align: center;
+}
+
+.further-presentation-text p{
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+    color: #000;
+    font-size: 20px;
+    line-height: 2.2;
+    box-sizing: content-box;
+    padding-top: 85px;
+    padding-bottom: 30px;
+}
+
+.further-presentation-img-second {
+    box-sizing: content-box;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 70vh;
+        transform: initial;
+        background-image: url(/images/aboutus2.jpg);
+        box-sizing: content-box;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        background-attachment: fixed;
+}
+
+/* Стилі блогу */
+
+.blog-presentation {
+    box-sizing: content-box;
+    background: linear-gradient(rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)), url(/images/blog.jpg);
+    height: 100vh;
+    transform: initial;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    padding-top: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.blog-intro {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 100%;
+    }
+
+
+.blog-nav {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 100px;
+    border: 0;
+    margin: 0;
+}
+
+.blog-title {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding: 24px 0 38px 0;
+    margin: 0;
+    letter-spacing: .5px;
+    font-size: 72px;
+    line-height: 1.2;
+    box-sizing: content-box;
+    display: block;
+    text-align: center;
+}
+
+.blog-intro-text {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+    box-sizing: content-box;
+    padding: 0 0 30px 0;
+    margin: 0 auto;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.blog-text {
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.blog-icon-one {
+    box-sizing: content-box;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #000;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    opacity: 1;
+
+}
+
+.blog-page-one {
+    
+}
 
 /* Стилі футера */
 .footer {
@@ -161,6 +391,7 @@ font-size 16px;
 font-weight 300;
 line-height: 1.55;
 margin-bottom: 35px;
+text-align: center;
 }
 
 .contacts {
